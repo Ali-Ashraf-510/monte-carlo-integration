@@ -1,5 +1,4 @@
-venv/
+venv_clean/
 __pycache__/
 *.pyc
 .env
-*.log
