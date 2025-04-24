@@ -57,19 +57,19 @@ monte-carlo-integration/
 │   └── index.html          # HTML template for the web interface
 └── static/                 # Static files (e.g., CSS, JavaScript for visualization)
 ```
-## Dependencies
+## Dependencies 📦
 - The project uses the following Python package:
 - Flask: Web framework for building the application.
 - See requirements.txt for details:
 - 
 
-## Notes
+## Notes ℹ️
 - The function f(x) = x² is hardcoded in the app. To integrate a different function, modify the f(x) function in app.py.
 
 - The number of points must be between 100 and 100,000 to ensure reasonable performance.
 
 - The app runs in debug mode by default (debug=True). Disable this in production.
-## Contributing
+## Contributing 🤝
 - Contributions are welcome! To contribute:
 - Fork the repository.
 
