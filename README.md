@@ -64,18 +64,17 @@ monte-carlo-integration/
 
 - The app runs in debug mode by default (debug=True). Disable this in production.
 ## Contributing
-Contributions are welcome! To contribute:
-Fork the repository.
+- Contributions are welcome! To contribute:
+- Fork the repository.
 
-Create a new branch (git checkout -b feature-branch).
+- Create a new branch (git checkout -b feature-branch).
 
-Make your changes and commit (git commit -m "Add feature").
+- Make your changes and commit (git commit -m "Add feature").
 
-Push to the branch (git push origin feature-branch).
+- Push to the branch (git push origin feature-branch).
 
-Create a pull request.
+- Create a pull request.
 
-License
 
 
 
