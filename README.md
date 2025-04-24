@@ -20,5 +20,35 @@ This is a Flask-based web application that performs Monte Carlo integration to e
    git clone https://github.com/Ali-Ashraf-510/monte-carlo-integration.git
    cd monte-carlo-integration
    ```
-   python -m venv venv
-   .\venv\Scripts\activate
+ 2. **Create and activate a virtual environmenty**:
+    ```bash
+      python -m venv venv
+      .\venv\Scripts\activate
+    ```
+3. **Create and activate a virtual environmenty**:
+    ```bash
+      pip install -r requirements.txt
+    ```
+## Usage
+1. **Run the Flask application**:
+   ```bash
+   python app.py
+   ```
+2. **Access the web interface**
+  - Open your browser and navigate to http://127.0.0.1:5000.
+
+  - Enter the number of points (between 100 and 100,000) to perform the Monte Carlo simulation.
+
+  -  View the estimated integral, actual value, error, and points for visualization.
+
+## Project Structure
+   ```bash
+monte-carlo-integration/
+│
+├── app.py                  # Main Flask application
+├── requirements.txt        # Project dependencies
+├── templates/
+│   └── index.html          # HTML template for the web interface
+└── static/                 # Static files (e.g., CSS, JavaScript for visualization)
+   ```
+
